@@ -1,0 +1,32 @@
+/**
+ * @mainpage API reference of the MineSweeperMatrix library version 2
+ *
+ * The MineSweeperMatrix library (called libmsm) is able to save you a lot of
+ * time in the daily task of implementing a MineSweeper game ;).\n
+ *
+ * But seriously, this one of my training projects. Originally, I've developed
+ * the game logic used in this library for a MineSweeper implementation I've
+ * built while my studies in 2011. This first version of the game used GTKmm
+ * for the GUI.\n
+ * Later, I would like to become acquainted with Qt and decided to use again
+ * MineSweeper as training project. To not implement the logic again, the first
+ * version of this library was extracted from the first game.\n
+ * This is a rework of that library I've made at the end of 2012 for an Android
+ * implementation of (you guessed it) MineSweeper.\n
+ *
+ * In 2014 I've decided to make this project open-source. Maybe the code is useful
+ * for anyone. The implementation covers some basic topics of (C++) programming like:
+ * - Observer pattern
+ * - Implementation hiding with the pimpl idiom
+ * - Advanced subscript operator overloading ([][])
+ * - Exceptions
+ * - boost::signals2 (optionally activatable)
+ * - const correctness (I guess)
+ * - boost::test
+ *
+ * If you find some bugs, anti-pattern or anything you like to indicate, please
+ * write me an E-Mail or contribute to the project at GitHub.
+ *
+ * \date 27.09.2014
+ * \author Moritz Nisblé moritz.nisble@gmx.de
+ */

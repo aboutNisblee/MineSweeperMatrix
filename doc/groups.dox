@@ -1,0 +1,14 @@
+/**
+ * @defgroup lib Library
+ * The library.
+ */
+
+/**
+ * @defgroup tools Tools
+ * Currently only the JNIRef base class.
+ */
+
+/**
+ * @defgroup config Configuration
+ * Compile time configuration symbols.
+ */
