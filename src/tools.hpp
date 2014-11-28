@@ -80,10 +80,9 @@ public:
 	{
 	}
 
-	/** Field-access-operator for the second dimension.
-	 * Use it in this way: matrix[x][y] and you'll get a single \ref Field "field-pointer" back.
-	 * \param y The Y-coordinate of the matrix.
-	 * \return Pointer to a single \ref Field "field" at the given coordinates.
+	/** Field-access-operator for the vertical dimension.
+	 * \param y The Y-coordinate inside the matrix.
+	 * \return Reference to the \ref Field "field" at the given coordinates.
 	 */
 	Field& operator[](uint16_t y) const throw (IndexOutOfBoundsException)
 	{

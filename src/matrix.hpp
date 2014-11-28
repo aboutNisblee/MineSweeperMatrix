@@ -131,7 +131,7 @@ struct MatrixObserver
 };
 
 /**
- * This class holds the logic to build and manipulate a game matrix.
+ * This class holds the logic to build and manipulate the matrix.
  * It overloads the 2-dimensional array-operator ([][]) to provide convenient
  * access to the \ref Field "fields".
  */
@@ -166,9 +166,8 @@ public:
 	int32_t getRemainingBombs() const;
 
 	/** Field-access-operator for the horizontal dimension.
-	 * \note This function returns a Proxy for the access to the second dimension.
-	 * Use it in this way: matrix[x][y] and you'll get a single Field back.
-	 * \param x The X-coordinate of the matrix.
+	 * \note This function returns a Proxy for the access to the vertical dimension.
+	 * \param x The X-coordinate inside the matrix.
 	 * \return A Proxy.
 	 */
 	Proxy operator[](uint16_t x) const throw (IndexOutOfBoundsException);
